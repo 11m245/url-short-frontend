@@ -17,7 +17,7 @@ import { Urldirect } from "./components/Urldirect";
 export const apiContext = createContext();
 function App() {
   const serverApi = "http://localhost:4000";
-  // const serverApi="deployed vercel";
+  // const serverApi="https://url-short-backend-two.vercel.app";
   const clientURL = "http://localhost:3000";
   // const clientURL = "deployed netlify url";
   const contextObj = {
