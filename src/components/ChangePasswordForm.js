@@ -95,7 +95,7 @@ export function ChangePasswordForm() {
     <>
       <form onSubmit={handleSubmit} className="login-form form">
         <h3>Change Password Form</h3>
-        <h4>hi {email}</h4>
+        <h4>hi, {email}</h4>
         <TextField
           id="email"
           type="text"
