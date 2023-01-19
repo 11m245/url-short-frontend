@@ -17,9 +17,9 @@ import { Urldirect } from "./components/Urldirect";
 export const apiContext = createContext();
 function App() {
   // const serverApi = "http://localhost:4000";
-  // const clientURL = "http://localhost:3000";
+  // const clientURL = "http://localhost:3000/";
   const serverApi = "https://url-short-backend-two.vercel.app";
-  const clientURL = "https://curious-llama-201728.netlify.app";
+  const clientURL = "https://curious-llama-201728.netlify.app/";
   const contextObj = {
     serverApi: serverApi,
     clientURL: clientURL,
